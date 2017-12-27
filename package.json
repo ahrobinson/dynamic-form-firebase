@@ -1,0 +1,28 @@
+{
+  "name": "dynamic-form-firebase",
+  "version": "1.0.0",
+  "description": "dynamic form based on data pulled from firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahrobinson/dynamic-form-firebase.git"
+  },
+  "author": "Alon Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahrobinson/dynamic-form-firebase/issues"
+  },
+  "homepage": "https://github.com/ahrobinson/dynamic-form-firebase#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
