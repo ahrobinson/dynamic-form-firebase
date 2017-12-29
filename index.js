@@ -2,9 +2,10 @@ const express = require('express');
 const config = require('./app/config');
 const pg = require('pg');
 const format = require('pg-format');
+const path = require('path');
 
 const app = express();
-app.get('/', (req, res) => res.send('Hiya!'));
+app.use('/', express.static(path.join(__dirname, 'public')));
 app.listen(8000, () => console.log('Listening on port 8000!'));
 
 const pool = new pg.Pool(config);
