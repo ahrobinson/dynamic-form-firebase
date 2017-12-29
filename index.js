@@ -26,6 +26,7 @@ app.get('/groceryList', (req, res) => {
       console.log(error);
     }
     console.log(results.rows);
+    console.log('results^^');
     res.send(results.rows);
   });
 });
