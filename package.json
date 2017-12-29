@@ -23,6 +23,8 @@
     "eslint-plugin-import": "^2.8.0"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "pg": "^7.4.0",
+    "pg-format": "^1.0.4"
   }
 }
