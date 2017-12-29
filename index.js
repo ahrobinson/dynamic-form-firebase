@@ -21,11 +21,11 @@ pool.connect((err, client, done) => {
 
 app.get('/groceryList', (req, res) => {
   const groceryQuery = format('SELECT * from grocery');
-  myClient.query(groceryQuery, (error, result) => {
+  myClient.query(groceryQuery, (error, results) => {
     if (error) {
       console.log(error);
     }
-    console.log(result.rows);
-    res.send(result.rows);
+    console.log(results.rows);
+    res.send(results.rows);
   });
 });
